@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Dashboard Bibliotech</title>
+    <meta charset="UTF-8" />
+    <style>
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h2 th:text="'Bienvenido, ' + ${username} + '!'">Bienvenido, usuario!</h2>
+
+    <button>Ver libros</button>
+    <button>Ver usuarios</button>
+    <br/><br/>
+    <button>Agregar libro</button>
+
+</body>
+</html>
